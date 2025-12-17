@@ -1,8 +1,6 @@
 # Big Data Introduction – Final Project  
 ## Multi-Topic Publish/Subscribe System with Apache Kafka
 
----
-
 ## Project Overview
 
 This project implements a real-time data streaming system based on the **Publish/Subscribe pattern** using **Apache Kafka**.  
