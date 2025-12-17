@@ -3,18 +3,18 @@
 
 ## Project Overview
 
-This project implements a real-time data streaming system based on the **Publish/Subscribe pattern** using **Apache Kafka**.  
-The goal is to demonstrate how Big Data streaming tools enable scalable, decoupled, and real-time data processing.
+This project implements a real-time data streaming system based on the Publish/Subscribe pattern using Apache Kafka.
+The goal is to demonstrate how Big Data streaming tools can handle large amounts of data in real-time while keeping different parts of the system independent from each other.
 
-The system simulates an **e-commerce platform** where different types of events are produced continuously and consumed by multiple services according to their specific needs.  
-Apache Kafka runs locally using **Docker and Docker Compose**, with containers launched and managed through **PowerShell**, ensuring an easy and reproducible setup.
+The system simulates an e-commerce platform where different types of events are produced continuously and consumed by multiple services according to their specific needs.
+Apache Kafka runs locally using Docker and Docker Compose, with containers launched and managed through PowerShell, ensuring an easy and reproducible setup.
 
 ---
 
 ## Chosen Tool: Apache Kafka
 
 Apache Kafka is a distributed event streaming platform designed to handle large volumes of data with low latency.  
-It is widely used in Big Data architectures for real-time ingestion, buffering, and distribution of data streams.
+It is widely used in Big Data architectures for real-time ingestion, buffering and distribution of data streams.
 
 In this project, Kafka acts as the **central messaging layer** between producers and consumers.
 
@@ -182,8 +182,8 @@ for message in consumer:
 ## How Kafka Fits into Big Data
 
 - Kafka acts as a centralized messaging backbone, enabling real-time analytics.
-- Integrates easily with other Big Data tools like Spark, Hive, or HDFS.
-- Supports high-throughput, fault-tolerant, and scalable streaming architectures.
+- Integrates easily with other Big Data tools like Spark, Hive or HDFS.
+- Supports high-throughput, fault-tolerant and scalable streaming architectures.
 
 ---
 
